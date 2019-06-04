@@ -122,10 +122,14 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (jedi-direx fill-column-indicator neotree web-mode smooth-scroll py-autopep8 origami material-theme jedi flycheck exec-path-from-shell elpy ein better-defaults))))
+    (org-ac jedi-direx fill-column-indicator neotree web-mode smooth-scroll py-autopep8 origami material-theme jedi flycheck exec-path-from-shell elpy ein better-defaults)))
+ '(send-mail-function (quote sendmail-send-it)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+(require 'package)
+(add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
