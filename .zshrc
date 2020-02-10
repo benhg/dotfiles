@@ -46,3 +46,4 @@ extract () {
    
 export PATH=/usr/local/Cellar/emacs/26.1_1/bin:$PATH
 alias clean="autopep8 --in-place --aggressive"
+fortune | cowsay
