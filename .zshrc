@@ -2,7 +2,7 @@ PROMPT="%n@%F{26}%m%f:%*%F{37}[%f%F{37}%d%f%F{37}]%f$ "
 
 alias ll="ls -l"
 alias lo="ls -o"
-alias lh="ls -lh
+alias lh="ls -lh"
 alias la="ls -la"
 
 alias bd='cd "$OLDPWD"'
